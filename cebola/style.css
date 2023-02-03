@@ -17,24 +17,33 @@ body, html {
 .header {
     width:100%;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     background-color: #1c1c1c;
-    border-bottom:10px solid black;
     padding:10px;
 }
 
 .menu {
     display:flex;
+    justify-content: center;
     flex-direction: row;
     gap:10px;
     list-style: none; 
+    background-color: #bcff07ff ;
+    width:100%;
+    padding: 5px;
 }
 
 .menu  li a {
     color:black;
     text-decoration: none;
     font-size: 18px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    gap:30px;
 }
 /*         TABELA       */
 td, th {
@@ -49,7 +58,7 @@ td a {
 td, th {
     padding:6px;
     border-radius:10px;
-    border: 5px solid greenyellow;
+    border: 5px solid #bcff07ff;
 }
 
 td {
