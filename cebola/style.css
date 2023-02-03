@@ -2,6 +2,8 @@ body, div {
     display:flex;
     flex-direction: column;
     align-items:center;
+    background-color: #1c1c1c;
+    color: white;
 }
 
 body, html {
@@ -17,7 +19,7 @@ body, html {
     display:flex;
     flex-direction: row;
     justify-content: center;
-    background-color: white;
+    background-color: #1c1c1c;
     border-bottom:10px solid black;
     padding:10px;
 }
@@ -41,10 +43,16 @@ td, th {
 
 td a {
     text-decoration: none;
+    color:whitesmoke;
 }
 
 td, th {
-    border:1px solid black;
     padding:6px;
     border-radius:10px;
+    border: 5px solid greenyellow;
+}
+
+td {
+    font-weight:600;
+    font-family:sans-serif;
 }
